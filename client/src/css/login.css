@@ -1,0 +1,13 @@
+
+.logincard{
+    position: absolute;
+    text-align: center;
+}
+.card{
+    background-color: rgb(224, 224, 221);
+
+}
+.logincontainer{
+      margin-top: 5%;
+      margin-left: 10%;
+}

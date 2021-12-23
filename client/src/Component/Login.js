@@ -1,6 +1,7 @@
 import react ,{useState} from 'react'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
+import '../css/login.css'
 const Login=(props)=>{
     const navigate=useNavigate()
      const [name,setname]=useState('')
@@ -24,10 +25,10 @@ const Login=(props)=>{
      }
 
     return (
-
-        <div className='container'>
+        <div className='wrap'>
+        <div className='container logincontainer'>
          
-         <div className="card" >
+         <div className="card logincard" >
              
           <div className="card-body">
             <h5 className="card-title">Login Form</h5>
@@ -48,7 +49,7 @@ const Login=(props)=>{
             
           </div>
         </div>
-
+        </div>
         </div>
     )
 
